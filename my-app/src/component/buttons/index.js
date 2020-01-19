@@ -1,32 +1,33 @@
 import React from 'react';
+import '../buttons/index.css'
 
 export default function index() {
     return (
         <div>
             <table className="number">
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>+</td>
+                <tr className="number">
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button>+</button></td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>-</td>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button>-</button></td>
                 </tr>
                 <tr>
-                    <td>7</td>
-                    <td>8</td>
-                    <td>9</td>
-                    <td>x</td>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button>x</button></td>
                 </tr>
                 <tr>
-                    <td>C</td>
-                    <td>0</td>
-                    <td>=</td>
-                    <td>/</td>
+                    <td><button>C</button></td>
+                    <td><button>0</button></td>
+                    <td><button>=</button></td>
+                    <td><button>/</button></td>
                 </tr>
             </table>
         </div>
