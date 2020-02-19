@@ -1,5 +1,5 @@
 import React from 'react';
-import Buttons from '../buttons/index';
+import '../input/index.css';
 
 export default function index() {
     return (
